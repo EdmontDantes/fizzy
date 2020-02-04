@@ -1,5 +1,5 @@
 function fizzy(num) {
-  if (num % 3 && !(num % 5) ){
+  if (num % 3 && !(num % 5)){
     return 'Buzz';
   }
   else if(num % 5 && !(num % 3)){
@@ -7,7 +7,7 @@ function fizzy(num) {
   }
   else if ((num % 5) && (num % 3)){
   return num;
-        }
+  }
   else if (num % 3 === num % 5){
     return 'FizzBuzz';
   }
